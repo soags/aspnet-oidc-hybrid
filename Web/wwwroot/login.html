@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Login</title>
+</head>
+<body>
+  <h1>ログイン</h1>
+  <div>
+    <button id="login">ログイン</button>
+  </div>
+  <div>
+    <a href="/secure.html">要認証ページ</a>
+  </div>
+  <script>
+    document.getElementById('login').addEventListener('click', function () {
+      // IDプロバイダーのログインページにリダイレクト
+      window.location.href = '/api/auth/login';
+    });
+  </script>
+</body>
+</html>
