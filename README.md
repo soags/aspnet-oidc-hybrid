@@ -1,4 +1,4 @@
-# ASP.NET OpenID Connect Hybric 認証
+# ASP.NET OpenID Connect Hybrid 認証
 
 **検証用プロジェクトです。**
 
